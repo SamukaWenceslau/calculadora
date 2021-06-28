@@ -10,7 +10,7 @@ describe("Calculos básicos", () => {
 
   it("Deve retornar o resultado da subtração de 2 valores", () => {
     let resultado = Calculadora.subtrair(15, 30);
-    expect(resultado).toEqual(15);
+    expect(resultado).toEqual(-15);
   })
 
   
