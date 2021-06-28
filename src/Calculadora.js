@@ -1,11 +1,13 @@
  class Calculadora {
   
-  somar(valor1, valor2) {
-    return valor1 + valor2;
+  somar(...valores) {
+    let resultado = valores.reduce((v1, v2) => v1 + v2);
+    return resultado;
   } 
 
-  subtrair(valor1, valor2) {
-    return valor1 - valor2;
+  subtrair(...valores) {
+    let resultado = valores.reduce((v1, v2) => v1 - v2);
+    return resultado;
   } 
 
 }
