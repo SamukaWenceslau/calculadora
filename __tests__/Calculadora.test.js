@@ -1,4 +1,4 @@
-import Calculadora from "../src/Calculadora";
+import Calculadora  from "../src/Calculadora";
 
 
 describe("Calculos básicos", () => {
